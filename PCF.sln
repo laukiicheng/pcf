@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02A33602-97DA-42BA-8177-EB9C0FBABA95}"
 	ProjectSection(SolutionItems) = preProject
 		.deployment = .deployment
+		manifest.yml = manifest.yml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Website", "src\Website\Website.csproj", "{51D582EB-2941-4D14-AC2B-83F284BC64F9}"

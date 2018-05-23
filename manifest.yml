@@ -1,0 +1,9 @@
+---
+applications:
+- name: my-web-app
+  memory: 512M
+  instances: 2
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git
+  # For a disconnected environment, add the path of the publish
+  env:
+    CACHE_NUGET_PACKAGES: false     # disable the nuget cache
